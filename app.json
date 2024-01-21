@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "StikerSmash",
-    "slug": "StikerSmash",
+    "name": "expo-impatient-care",
+    "scheme": "your-app-scheme",
+    "slug": "expo-impatient-care",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "",
@@ -23,6 +24,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "tsconfigPaths": true
     }
   }
 }
